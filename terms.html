@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulamin Świadczenia Usług – EcoGo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --primary: #22C55E;
+      --primary-dark: #16A34A;
+      --bg: #F8FAFC;
+      --card-bg: #FFFFFF;
+      --text: #0F172A;
+      --text-muted: #64748B;
+      --border: #E2E8F0;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+      padding: 40px 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      padding: 48px;
+      border-radius: 24px;
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05), 0 8px 10px -6px rgba(0, 0, 0, 0.01);
+      border: 1px solid var(--border);
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 40px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .badge {
+      display: inline-block;
+      background: #DCFCE7;
+      color: var(--primary-dark);
+      font-weight: 800;
+      font-size: 13px;
+      padding: 6px 14px;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+      margin-bottom: 8px;
+    }
+    .updated {
+      color: var(--text-muted);
+      font-size: 14px;
+      font-weight: 500;
+    }
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      color: var(--text);
+    }
+    p {
+      color: #334155;
+      font-size: 15px;
+      margin-bottom: 16px;
+    }
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    li {
+      color: #334155;
+      font-size: 15px;
+      margin-bottom: 10px;
+    }
+    strong {
+      color: var(--text);
+      font-weight: 700;
+    }
+    .callout {
+      background-color: #FEF2F2;
+      border-left: 4px solid #EF4444;
+      padding: 16px 20px;
+      border-radius: 8px;
+      margin: 20px 0;
+    }
+    .callout p {
+      color: #991B1B;
+      margin-bottom: 0;
+      font-size: 14px;
+    }
+    .footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .footer a {
+      color: var(--primary-dark);
+      text-decoration: none;
+      font-weight: 600;
+      margin: 0 8px;
+    }
+    .footer a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 640px) {
+      body { padding: 16px; }
+      .container { padding: 24px; border-radius: 16px; }
+      h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="header">
+      <span class="badge">EcoGo Legal</span>
+      <h1>Regulamin Świadczenia Usług</h1>
+      <p class="updated">Ostatnia aktualizacja: 29 września 2026 r.</p>
+    </div>
+
+    <h2>1. Definicje</h2>
+    <ul>
+      <li><strong>Aplikacja</strong> – platforma mobilna EcoGo dostępna na systemy iOS oraz Android.</li>
+      <li><strong>Kierowca</strong> – zarejestrowany Użytkownik oferujący wolne miejsca w pojeździe na planowanej przez siebie trasie.</li>
+      <li><strong>Pasażer</strong> – zarejestrowany Użytkownik rezerwujący miejsce w pojeździe Kierowcy.</li>
+      <li><strong>Przejazd (Carpooling)</strong> – wspólna podróż Kierowcy i Pasażera na krótkich i średnich dystansach w celu optymalizacji kosztów paliwa i ograniczenia emisji CO2.</li>
+      <li><strong>Portfel EcoGo</strong> – wirtualne saldo w Aplikacji służące do rozliczania partycypacji w kosztach przejazdów z wykorzystaniem systemu zabezpieczenia środków (Escrow).</li>
+      <li><strong>Kod PIN</strong> – unikalny, 4-cyfrowy kod generowany dla Pasażera, podawany Kierowcy w chwili wsiadania do pojazdu w celu autoryzacji rozpoczęcia przejazdu.</li>
+    </ul>
+
+    <h2>2. Istota usługi EcoGo i charakter niekomercyjny</h2>
+    <p>
+      EcoGo jest technologiczną platformą społecznościową ułatwiającą kojarzenie osób podróżujących w tym samym kierunku. EcoGo nie jest przewoźnikiem transportowym, korporacją taksówkarską, dyspozytorem ani podmiotem świadczącym usługi transportu zarobkowego.
+    </p>
+    <p>
+      Przejazdy organizowane za pośrednictwem EcoGo mają charakter ściśle <strong>niekomercyjny (współdzielenie kosztów)</strong>. Opłaty wnoszone przez Pasażerów stanowią wyłącznie partycypację w rzeczywistych kosztach zużytego paliwa, opłat drogowych oraz amortyzacji pojazdu na danej trasie i nie mogą stanowić źródła dochodu ani zysku dla Kierowcy.
+    </p>
+
+    <h2>3. Rejestracja, Tożsamość i Bezpieczeństwo</h2>
+    <ul>
+      <li>Użytkownikiem Aplikacji może być wyłącznie osoba fizyczna, która ukończyła 18 lat i posiada pełną zdolność do czynności prawnych.</li>
+      <li>Każdy Użytkownik zobowiązany jest do podania prawdziwych i aktualnych danych podczas rejestracji oraz autoryzacji numeru telefonu lub adresu e-mail.</li>
+      <li>Kierowca oświadcza i gwarantuje, że posiada ważne uprawnienia do kierowania pojazdem (prawo jazdy odpowiedniej kategorii), pojazd posiada aktualne badanie techniczne oraz ważne ubezpieczenie odpowiedzialności cywilnej (OC).</li>
+    </ul>
+
+    <h2>4. System rezerwacji, Escrow i Płatności</h2>
+    <p>
+      W celu zapewnienia bezpieczeństwa finansowego obu stron, w Aplikacji funkcjonuje model depozytowy (Escrow):
+    </p>
+    <ul>
+      <li>W momencie dokonania rezerwacji miejsca przez Pasażera, odpowiednia kwota z jego Portfela EcoGo zostaje <strong>zablokowana (zamrożona)</strong> jako gwarancja rezerwacji.</li>
+      <li>Środki nie trafiają bezpośrednio na konto Kierowcy przed odbyciem podróży.</li>
+      <li>Wypłata środków na rzecz Kierowcy następuje dopiero po pomyślnym rozpoczęciu trasy (potwierdzeniu kodem PIN) i zakończeniu przejazdu.</li>
+      <li>W przypadku odrzucenia rezerwacji przez Kierowcę lub odwołania przejazdu zgodnie z zasadami aplikacji, zamrożone środki wracają natychmiast do dostępnego salda Pasażera.</li>
+      <li>Obsługa płatności, doładowań i wypłat na konta bankowe realizowana jest za pośrednictwem licencjonowanego operatora płatności <strong>Stripe Inc.</strong></li>
+    </ul>
+
+    <h2>5. Zasada Zerowej Tolerancji i Bezpieczeństwo Społeczności (Apple Guideline 1.2)</h2>
+    <div class="callout">
+      <p>
+        <strong>Zero Tolerance Policy:</strong> W EcoGo bezwzględnie obowiązuje zasada zerowej tolerancji dla jakichkolwiek przejawów mowy nienawiści, dyskryminacji, gróźb, nękania, wulgaryzmów, oszustw, zamieszczania treści o charakterze seksualnym lub agresywnego zachowania.
+      </p>
+    </div>
+    <p>
+      Każdy Użytkownik ma do dyspozycji natychmiastowe mechanizmy bezpieczeństwa wbudowane w Aplikację:
+    </p>
+    <ul>
+      <li><strong>Zgłaszanie naruszeń (Report):</strong> Możliwość zgłoszenia nieodpowiedniego zachowania lub treści bezpośrednio w oknie czatu oraz na ekranie aktywnego przejazdu.</li>
+      <li><strong>Blokowanie użytkowników (Block):</strong> Możliwość natychmiastowego zablokowania niepożądanych kontaktów.</li>
+      <li>Wszystkie zgłoszenia są analizowane przez dział moderacji EcoGo w terminie <strong>do 24 godzin</strong>. Treści naruszające regulamin są usuwane, a konta sprawców podlegają natychmiastowemu i bezterminowemu zablokowaniu.</li>
+    </ul>
+
+    <h2>6. Odpowiedzialność i Postanowienia Prawne</h2>
+    <p>
+      EcoGo dokłada należytej staranności w celu zapewnienia prawidłowego funkcjonowania Aplikacji, jednakże nie ponosi odpowiedzialności za bezpośrednie działania lub zaniechania Użytkowników w trakcie przejazdu, w tym za stan techniczny pojazdów, opóźnienia spowodowane sytuacją na drodze czy zdarzenia losowe.
+    </p>
+    <p>
+      Wszelka odpowiedzialność z tytułu ruchu pojazdów mechanicznych regulowana jest przez powszechnie obowiązujące przepisy Kodeksu Cywilnego oraz warunki obowiązkowego ubezpieczenia OC pojazdu Kierowcy.
+    </p>
+
+    <h2>7. Likwidacja Konta (Prawo do Bycia Zapomnianym)</h2>
+    <p>
+      Użytkownik ma prawo w dowolnym momencie zakończyć korzystanie z Aplikacji i usunąć swoje konto. Opcja trwałego usunięcia konta jest dostępna bezpośrednio w zakładce <em>Profil &rarr; Usuń konto</em>. Wykonanie tej operacji skutkuje bezpowrotnym wyczyszczeniem danych osobowych i historii z naszych systemów.
+    </p>
+
+    <h2>8. Kontakt i Zgłaszanie Reklamacji</h2>
+    <p>
+      Wszelkie uwagi, zapytania, odwołania oraz zgłoszenia reklamacyjne można kierować do naszego zespołu wsparcia pod adresem:
+      <br>
+      <strong>E-mail:</strong> <a href="mailto:support@ecogo.app" style="color: var(--primary-dark); font-weight: 700;">support@ecogo.app</a>
+    </p>
+
+    <div class="footer">
+      <p>&copy; 2026 EcoGo App. Wszelkie prawa zastrzeżone.</p>
+      <p style="margin-top: 8px;">
+        <a href="terms.html">Regulamin Świadczenia Usług</a> • 
+        <a href="privacy.html">Polityka Prywatności</a>
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
